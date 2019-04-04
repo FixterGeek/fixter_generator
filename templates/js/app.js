@@ -8,7 +8,7 @@ const hbs = require('hbs');
 const mongoose = require('mongoose');
 const logger = require('morgan');
 const path = require('path');
-{ auth_requires }
+{auth_requires}
 
 mongoose
   .connect('mongodb://localhost/{app_name}', { useNewUrlParser: true })
@@ -31,22 +31,22 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 
 // Express View engine setup
-{ expressCss }
+{expressCss}
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(favicon(path.join(__dirname, 'public', 'images', 'favicon.ico')));
 
-{ auth_hbs_helper }
+{auth_hbs_helper}
 
 // default value for title local
 app.locals.title = 'Express - Generated with Fixter Generator';
 
-{ auth }
+{auth}
 
 const index = require('./routes/index');
 app.use('/', index);
-{ auth_routes }
+{auth_routes}
 
 module.exports = app;

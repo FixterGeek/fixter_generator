@@ -299,7 +299,7 @@ app.use(require('node-sass-middleware')({
   console.log('   Start your app:');
   console.log('   $ npm start');
   console.log();
-  console.log('   Happy Coding ❤️\n\n');
+  console.log('   BlisS Coding 💻 ❤️\n\n');
 }
 
 function copy_template(from, to) {

@@ -1,7 +1,7 @@
 {
   "name": "fixter-generator",
   "description": "Express' application generator by FixterGeek",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Héctor BlisS <fixtergeek@gmail.com>",
   "contributors": [
     "Héctor BlisS <fixtergeek@gmail.com>"
