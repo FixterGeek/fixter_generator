@@ -1,0 +1,21 @@
+language: node_js
+node_js:
+  - "0.10"
+  - "0.12"
+  - "1.8"
+  - "2.5"
+  - "3.3"
+  - "4.7"
+  - "5.12"
+  - "6.9"
+  - "7.4"
+  - "8.1.4"
+sudo: false
+cache:
+  directories:
+    - node_modules
+before_install:
+  # Update Node.js modules
+  - "test ! -d node_modules || npm prune"
+  - "test ! -d node_modules || npm rebuild"
+script: "npm run-script test-ci"
