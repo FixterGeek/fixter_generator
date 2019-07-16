@@ -5,7 +5,7 @@
 
 ## Introduction
 
-`fixter_generator` is FixterGeek's NPM package that allows students to quickly create express projects. The `fixter_generator` is strongly opinionated:
+`fixter-generator` is FixterGeek's NPM package that allows students to quickly create express projects. The `fixter-generator` is strongly opinionated:
 
 - Follows industry best practices
 - Predefined directory structure:
@@ -28,10 +28,10 @@
 
 ## Installation
 
-Install `fixter_generator` as a global NPM package, so you can run it from anywhere in your computer:
+Install `fixter-generator` as a global NPM package, so you can run it from anywhere in your computer:
 
 ```sh
-$ npm install -g fixter_generator
+$ npm install -g fixter-generator
 ```
 
 ## Quick Start
